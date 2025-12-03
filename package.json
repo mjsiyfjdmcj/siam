@@ -1,0 +1,20 @@
+{
+  "name": "climate-earth-website",
+  "version": "1.0.0",
+  "description": "Beautiful climate awareness website with real-time data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["climate", "environment", "sustainability", "website"],
+  "author": "Climate Earth Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

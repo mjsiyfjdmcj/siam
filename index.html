@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Earth - Our Planet's Future</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🌍 Climate Earth</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#data">Data</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="slide slide1"></div>
+            <div class="slide slide2"></div>
+            <div class="slide slide3"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Protecting Our Planet's Future</h1>
+            <p class="hero-subtitle">Join the movement to combat climate change and preserve Earth for future generations</p>
+            <button class="cta-button" onclick="scrollToSection('impact')">Explore Impact</button>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-particles"></div>
+        </div>
+    </section>
+
+    <section id="impact" class="impact-section">
+        <div class="container">
+            <h2 class="section-title">Climate Impact</h2>
+            <div class="impact-grid">
+                <div class="impact-card" data-aos="fade-up">
+                    <div class="impact-icon">🌡️</div>
+                    <h3>Rising Temperatures</h3>
+                    <p>Global temperatures have risen by 1.1°C since pre-industrial times</p>
+                    <div class="temperature-chart"></div>
+                </div>
+                <div class="impact-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="impact-icon">🌊</div>
+                    <h3>Sea Level Rise</h3>
+                    <p>Ocean levels are rising at 3.3mm per year, threatening coastal communities</p>
+                    <div class="sea-level-visual"></div>
+                </div>
+                <div class="impact-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="impact-icon">❄️</div>
+                    <h3>Ice Loss</h3>
+                    <p>Arctic sea ice is declining at 13% per decade</p>
+                    <div class="ice-animation"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="environmental-impact" class="environmental-section">
+        <div class="container">
+            <h2 class="section-title">Environmental Damage Impact</h2>
+            <div class="impact-stats">
+                <div class="stat-card climate-change">
+                    <div class="stat-circle">
+                        <div class="stat-percentage">70%</div>
+                    </div>
+                    <h3>Climate Change</h3>
+                    <p>Projected economic loss due to sea-level rise, extreme weather and resource scarcity</p>
+                </div>
+                <div class="stat-card air-pollution">
+                    <div class="stat-circle">
+                        <div class="stat-percentage">55%</div>
+                    </div>
+                    <h3>Air Pollution</h3>
+                    <p>Estimated health costs and reduced productivity from respiratory illnesses</p>
+                </div>
+                <div class="stat-card bangladesh-impact">
+                    <div class="stat-circle">
+                        <div class="stat-percentage">60%</div>
+                    </div>
+                    <h3>Impact on Bangladesh</h3>
+                    <p>Combined percentage of economic and health damage from both factors</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="data" class="data-section">
+        <div class="container">
+            <h2 class="section-title">Real-Time Climate Data</h2>
+            <div class="data-dashboard">
+                <div class="data-card">
+                    <h3>CO2 Levels</h3>
+                    <div class="data-value" id="co2-level">Loading...</div>
+                    <div class="data-unit">ppm</div>
+                </div>
+                <div class="data-card">
+                    <h3>Global Temperature</h3>
+                    <div class="data-value" id="temperature">Loading...</div>
+                    <div class="data-unit">°C above baseline</div>
+                </div>
+                <div class="data-card">
+                    <h3>Arctic Ice Extent</h3>
+                    <div class="data-value" id="ice-extent">Loading...</div>
+                    <div class="data-unit">million km²</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Climate Earth. Together for a sustainable future.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
